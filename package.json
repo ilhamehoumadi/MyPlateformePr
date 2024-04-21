@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4",
+    "glightbox": "^3.3.0",
+    "isotope-layout": "^3.0.6",
+    "swiper": "^11.1.1",
+    "waypoint": "^0.2.8"
+  }
+}
