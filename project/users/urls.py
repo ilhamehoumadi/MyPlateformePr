@@ -17,8 +17,8 @@ urlpatterns = [
     path('Logindonor/', views.DonorSignIn, name='Logindonor'),
     path('dashboard_donor/', views.dashboard_donor, name='dashboard_donor'),
 
-    path('AssociationSignup/', views.AssociationSignup, name='AssociationSignup'),
-    path('AssociationSignIn/', views.AssociationSignIn, name='AssociationSignIn'),
+    path('registerassociation/', views.AssociationSignup, name='registerassociation'),
+    path('Loginassociation/', views.AssociationSignIn, name='Loginassociation'),
     path('dashboard_association/', views.dashboard_association, name='dashboard_association'),
 
     path('signupadmin/', views.signupadmin, name='signupadmin'),
